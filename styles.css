@@ -1,0 +1,523 @@
+body{
+    width:40vw;
+    margin-left: 27.5vw;
+    /* border:2px solid black; */
+}
+.android-large-1{
+    border:2px solid black;
+    margin: 10px;
+}
+h2{
+font-family: Montserrat;
+font-size: 15px;
+font-weight: 600;
+line-height: 18.29px;
+letter-spacing: -0.30000001192092896px;
+text-align: center;
+
+}
+.top-container{
+    display: flex;
+    /* border:2px solid red; */
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right:20px;
+}
+.middle-container-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.third-container-1{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: right;
+    margin-right: 50px;
+}
+.skip-button{
+    display: flex;
+    justify-content: right;
+    margin-right: 50px;
+    font-size: 1.2rem;
+}
+.paragraph-container{
+    padding:10px;
+}
+.paragraph-container h1{
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 600;
+line-height: 24.38px;
+text-align: left;
+/* color: #787878; */
+
+}
+.paragraph-container p{
+    color: #787878; 
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 19.5px;
+text-align: left;
+
+}
+.android-large-2, .android-large-3{
+    border:2px solid black;
+    margin: 10px;
+}
+.android-large-3 h1{
+    font-family: Roboto;
+font-size: 20px;
+font-weight: 600;
+margin: 20px;
+line-height: 23.44px;
+text-align: left;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start !important;
+}
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 35vw;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color:  #F1F1F1;
+
+
+}
+
+.form-group input[type="checkbox"] {
+    margin-right: 5px;
+    margin-top: 10px;
+    /* margin-left: -30px !important; */
+}
+
+.btn {
+    background: linear-gradient(270deg, #7B91FF 0%, #95BEFF 100%);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 70%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+.android-large-4{
+    border:2px solid black;
+}
+.android-large-4 {
+  display: none; /* Hide the login page by default */
+}
+.android-large-4 h1{
+    font-family: Roboto;
+font-size: 20px;
+font-weight: 600;
+margin: 20px;
+line-height: 23.44px;
+text-align: left;
+
+}
+.android-large-4 form a{
+    display: flex;
+    /* border:2px solid red; */
+    color:black !important;
+    justify-content: flex-start !important;
+    margin-right: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.line-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 30px;
+  }
+  .line {
+    flex: 1;
+    border-bottom: 1px solid #000;
+  }
+  .text {
+    padding: 0 10px;
+  }
+  .google-login img{
+    border:2px solid grey;
+    /* width:10vw; */
+    /* width:2vw; */
+    padding: 10px;
+    border-radius: 10px;
+
+    object-fit: cover; 
+  }
+  .google-facebook-div{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .android-large-4 p{
+    text-align: center;
+  }
+  .android-large-5{
+    border:2px solid black;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+  }
+  .android-large-5 h1{
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 600;
+line-height: 24.38px;
+text-align: left;
+/* margin-left: 50px; */
+text-align: center;
+
+  }
+
+  .question {
+    margin-bottom: 20px;
+    width: 80%; /* Adjust the width as needed */
+    display: flex;
+    height:35px;
+    align-items: center;
+    justify-content: space-between !important;
+    background-color: #F1F1F1;
+    
+    border-radius: 5px;
+    padding:10px;
+    /* border: 2px solid red; */
+    /* justify-self: normal; */
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .question label {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .question input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  .android-large-5 form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    /* background-color: #f9f9f9; */
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  }
+
+  .question {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+  .android-large-6 h1{
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 600;
+line-height: 24.38px;
+text-align: center;
+
+  }
+  .android-large-6{
+    border:2px solid black;
+  }
+  .workout-heading-div{
+    display: flex;
+    align-items: center;
+  }
+  .workout-heading-div img{
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 120px;
+    margin-left: 20px;
+  }
+  .chart-container{
+    display: flex;
+    align-items: center !important;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  /* .chart {
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .bar {
+    width: 50px;
+    background-color: #007bff;
+    margin-right: 10px;
+    color:red;
+  }
+  
+  .x-axis-label {
+    margin-top: 5px;
+  } */
+  .danger-symbol{
+    width:50px;
+    height:30px;
+    color:blue;
+  }
+  
+  .Workout-middle-container{
+    display: flex;
+margin: 20px;
+justify-content: space-around !important;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+gap: 30px;
+border-radius: 10px 10px 10px 10px;
+border: 1.02px 0px 0px 0px;
+opacity: 0px;
+background: linear-gradient(90.07deg, rgba(129, 157, 255, 0.28) 5.94%, rgba(16, 16, 16, 0) 76.45%);
+
+  }
+  .Workout-middle-container p{
+    font-family: Montserrat;
+font-size:1.05rem;
+font-weight: 500;
+line-height: 15.32px;
+text-align: left;
+
+  }
+  .future-workout{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .future-workout h1{
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 600;
+line-height: 19.5px;
+text-align: left;
+color: var(--black, #2C2B2B);
+
+
+  }
+  .future-workout p{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 14.63px;
+text-align: left;
+color: var(--gray-100, #7F7F7F);
+
+  }
+/* The switch (checkbox input) */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider (switcher) */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #007bff;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.future-workout-cards{
+  display: flex;
+  width:auto;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+  border-radius: 8px;
+  /* border:2px solid red; */
+  /* box-shadow: 5; */
+  box-shadow: 4px 8px 25px 8px #00000026;
+
+}
+.workout-text-content p{
+  margin-top: -10px;
+}
+.workout-bottom-container{
+  background: #8CB1FF99;
+
+}
+.workout-bottom-left-container h1{
+  font-family: Montserrat;
+font-size: 18px;
+font-weight: 500;
+line-height: 14.63px;
+text-align: left;
+
+}
+.workout-bottom-container{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.mobile-view-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  top:-40px;
+  height:40px;
+  background-color: white;;
+  /* position: absolute; */
+}
+.android-large-7{
+  border:2px solid black;
+}
+.workout-heading-div h1{
+  font-family: Montserrat;
+font-size: 20px;
+font-weight: 600;
+line-height: 24.38px;
+text-align: center;
+
+}
+.workout-schedule-date-div{
+  display: flex;
+  /* border:2px solid red; */
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+  /* padding: 10px; */
+}
+.workout-schedule-date-div img{
+  margin: 10px;
+}
+.calendar {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  /* overflow-x: hidden; */
+}
+
+.day-date-container {
+  display: flex;
+  flex-direction: column;
+  margin:10px;
+  width:70px;
+}
+
+.day, .date {
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.day-date-container:hover {
+  /* background-color: #f0f0f0; */
+  background: linear-gradient(270deg, #8DA4FF -0.62%, #D1DBFF 100.68%);
+  border-radius: 10px;
+
+}
+.time-schedule {
+  display: flex;
+  flex-direction: column;
+}
+
+.time-slot {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.hour {
+  margin-right: 10px;
+}
+
+/* Style for the horizontal lines */
+.time-schedule hr {
+  border: none;
+  border-top: 1px solid #ccc; /* Adjust the color and style as needed */
+  margin: 5px 0; /* Adjust the spacing between the lines */
+  width: 100%; /* Ensure the line spans the full width */
+}
+
+
+@media only screen and (max-width: 768px){
+  body{
+    width:90vw;
+  }
+}
